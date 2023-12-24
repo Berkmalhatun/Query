@@ -4,8 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.solr.client.solrj.beans.Field;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.solr.core.mapping.SolrDocument;
+
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -14,7 +17,10 @@ import org.springframework.data.solr.core.mapping.SolrDocument;
 @SolrDocument(collection = "enocadb")
 public class Solr {
     @Id
+    @Field("id")
     private String id;
-    private String title;
-    private long updatedAt;
+    @Field("title")
+    private List<String> title;  // Dizi olarak güncellenmiş
+    @Field("updatedAt")
+    private List<Long> updatedAt; // Dizi olarak güncellenmiş
 }
