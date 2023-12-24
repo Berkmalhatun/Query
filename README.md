@@ -41,7 +41,11 @@ git clone https://github.com/Berkmalhatun/Query
 2. Solr'a veri eklenir.     
     Core seçme kısmından eklemiş olduğumuz core seçilir. Documents kısmına gelip Document Type JSON olarak seçilir.Ekleyeceğimiz documents için örnek kayıtlar girilir.Örneğin:   
     ```bash 
-      { "id": "1", "title": "Document 1", "updatedAt": 1576368000000 }, { "id": "2", "title": "Document 2", "updatedAt": 1576368000000 }, { "id": "3", "title": "Document 3", "updatedAt": 1576368000000 }, { "id": "4", "title": "Document 4", "updatedAt": 1579046400000 }, { "id": "5", "title": "Document 5", "updatedAt": 1579046400000 }
+   { "id": "1", "title": ["Document 1"], "updatedAt": [1576368000000] },
+   { "id": "2", "title": ["Document 2"], "updatedAt": [1576368000000] },
+   { "id": "3", "title": ["Document 3"], "updatedAt": [1576368000000] },
+   { "id": "4", "title": ["Document 4"], "updatedAt": [1579046400000] },
+   { "id": "5", "title": ["Document 5"], "updatedAt": [1579046400000] }
       ```
 3. Veriye ulaşmak.  
     Solr da Query kısmına gelip fq yani filtreleme kısmına updatedAt:[1577836800000 TO ] yazılır ve Raw Query Parameters kısmına ":*=" tırnak içindeki değer yazılır. Buradaki long değeri 1 Ocak 2020 den sonrakiler için getiren filtreleme değeridir. Ya da 
