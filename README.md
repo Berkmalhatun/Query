@@ -52,7 +52,10 @@ git clone https://github.com/Berkmalhatun/Query
    ```bash 
     http://localhost:8983/solr/enocadb/select?q=*:*&fq=updatedAt:[1577836800000%20TO%20*]&rows=10 
    ```
-    adresi tarayıcıya yazılabılır.
+    adresi tarayıcıya yazılabılır. Ayrıca işlemler eksiksiz yapıldığı takdirde aşağıdaki adreste sonucu verir.
+   ```bash 
+   http://localhost:8080/solr/documents
+   ```
 
 ## Ekran Görüntüleri
 ### Query 
