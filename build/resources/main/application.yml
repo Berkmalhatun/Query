@@ -1,0 +1,10 @@
+spring:
+  data:
+    solr:
+      host: http://localhost:8983/solr/enocadb
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    org.springframework.data.solr: DEBUG
