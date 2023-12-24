@@ -17,7 +17,7 @@ public class SolrRepository {
     public List<Solr> findDocumentsAfterJanuary2020() throws Exception {
         SolrQuery query = new SolrQuery("*:*");
         query.set("collection", "enocadb");
-        query.setFilterQueries("updatedAt:[2020-01-01T00:00:00Z TO *]");
+        query.setFilterQueries("updatedAt:[1577836800000 TO *]");
         query.setRows(10);
 
         QueryResponse response = solrClient.query(query);
