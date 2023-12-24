@@ -40,6 +40,6 @@ Core seçme kısmından eklemiş olduğumuz core seçilir. Documents kısmına g
     }
 #### 3- Veriye ulaşmak 
  Solr da Query kısmına gelip fq yani filtreleme kısmına updatedAt:[1577836800000 TO *] yazılır. Buradaki long değeri 1 Ocak 2020 den sonrakiler için getiren filtreleme değeridir. Ya da
-    http://localhost:8983/solr/enocadb/select?q=*:*&fq=updatedAt:[1577836800000%20TO%20*]&rows=10 
-    adresi tarayıcıya yazılabılır.
+http://localhost:8983/solr/enocadb/select?q=*:*&fq=updatedAt:[1577836800000%20TO%20*]&rows=10 
+adresi tarayıcıya yazılabılır.
 
