@@ -49,9 +49,6 @@ git clone https://github.com/Berkmalhatun/Query
     http://localhost:8983/solr/enocadb/select?q=*:*&fq=updatedAt:[1577836800000%20TO%20*]&rows=10 
    ```
     adresi tarayıcıya yazılabılır.
----
-## Son
-İnceleyip zaman ayırdığınız için teşekkür ederim.
 
 ## Ekran Görüntüleri
 ### Bütün veri
