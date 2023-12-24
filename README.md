@@ -18,7 +18,7 @@ git clone https://github.com/Berkmalhatun/Query
 4. Kullanmış olduğunuz IDE'yi açın  
 5. Klonlamış olduğunuz dosyayı IDE üzerinden açın.
 6. Dosya açıldığında bağımlılıklar yüklenene kadar bekleyin.
-7. CompanyApplication'a sağ tıklayıp Run diyerek çalıştırabilirsiniz.
+7. SolrApplication'a sağ tıklayıp Run diyerek çalıştırabilirsiniz.
 ## Docker da Solr Kurulumu
 
 1. Docker Hub dan Solr imajı çekilir. 
