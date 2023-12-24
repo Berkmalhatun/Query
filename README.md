@@ -51,6 +51,8 @@ git clone https://github.com/Berkmalhatun/Query
     adresi tarayıcıya yazılabılır.
 
 ## Ekran Görüntüleri
+### Query 
+[![image](https://i.hizliresim.com/rt1o035.png)](https://hizliresim.com/rt1o035)
 ### Bütün Veri Solr 
 [![image](https://i.hizliresim.com/f8sac97.PNG)](https://hizliresim.com/f8sac97)
 ### Dönen Veri Api
