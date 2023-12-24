@@ -51,11 +51,13 @@ git clone https://github.com/Berkmalhatun/Query
     adresi tarayıcıya yazılabılır.
 
 ## Ekran Görüntüleri
-### Bütün veri
+### Bütün Veri Solr 
 [![image](https://i.hizliresim.com/f8sac97.PNG)](https://hizliresim.com/f8sac97)
-### Dönen Veri
+### Dönen Veri Api
+[![image](https://i.hizliresim.com/ketje6u.png)](https://hizliresim.com/ketje6u)
+### Dönen Veri Solr
 [![image](https://i.hizliresim.com/pix18zq.PNG)](https://hizliresim.com/pix18zq)
-### Dönen Veri
+### Dönen Veri Solr
 [![image](https://i.hizliresim.com/7kwcm8o.PNG)](https://hizliresim.com/7kwcm8o)
 
 
